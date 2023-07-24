@@ -1,10 +1,23 @@
 public class hello
 {
 
+public void m1()
+{
+	System.out.println("ok done");
+}
 
 	public static void main(String args[])
 {
 System.out.println("hello github by KULDEEP");
+
+
+
+hello h=new hello();
+h.m1();
+
+
+
+
 
 }
 
