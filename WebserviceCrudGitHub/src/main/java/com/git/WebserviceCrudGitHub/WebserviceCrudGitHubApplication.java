@@ -7,7 +7,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan
 @EnableJpaRepositories
 @SpringBootApplication
-
 public class WebserviceCrudGitHubApplication {
 
 	public static void main(String[] args) {
