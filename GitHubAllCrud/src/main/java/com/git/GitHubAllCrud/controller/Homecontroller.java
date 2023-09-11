@@ -26,7 +26,7 @@ public class Homecontroller {
 	@PostMapping(value="/savedata")
 	public ResponseEntity<Student> savestudent(@RequestBody Student s)
 	{
-		system.out.println("Rohini");
+		System.out.println("Rohini Shinde ");
 		se.savestudent(s);
 		return new ResponseEntity<>(s,HttpStatus.CREATED);
 	}
